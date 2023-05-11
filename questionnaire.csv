@@ -1,0 +1,157 @@
+﻿question;option;input_type;input_id;dependence;dependence_value;required;page
+Subject ID;Bitte eingeben;text;subject_id;NA;NA;TRUE;1
+Geburtsdatum;(TT.MM.JJJJ);text;geburtsdatum;NA;NA;TRUE;2
+Geschlecht;männlich;mc;geschlecht;NA;NA;TRUE;2
+Geschlecht;weiblich;mc;geschlecht;NA;NA;TRUE;2
+Geschlecht;nicht binär/divers;mc;geschlecht;NA;NA;TRUE;2
+Geschlecht;keine Angabe;mc;geschlecht;NA;NA;TRUE;2
+Händigkeit;Linkshänder*in;mc;händigkeit;NA;NA;TRUE;2
+Händigkeit;Rechtshänder*in;mc;händigkeit;NA;NA;TRUE;2
+Händigkeit;Beidhänder*in;mc;händigkeit;NA;NA;TRUE;2
+Höchster Bildungsgrad;z.B. Schulabschluss, Berufsausbildung, Bachelorstudium;text;bildung;NA;NA;TRUE;3
+Beruf;z.B. Student*in;text;beruf;NA;NA;TRUE;3
+Tragen Sie eine Brille oder Kontaktlinsen?;Ja;y/n;sehen;NA;NA;TRUE;4
+Tragen Sie eine Brille oder Kontaktlinsen?;Nein;y/n;sehen;NA;NA;TRUE;4
+Haben Sie eine Hörstörung?;Ja;y/n;hören;NA;NA;TRUE;4
+Haben Sie eine Hörstörung?;Nein;y/n;hören;NA;NA;TRUE;4
+Liegen bei Ihnen Einschränkungen in der Farbwahrnehmung vor?;Ja;y/n;farbwahrnehmung;NA;NA;TRUE;4
+Liegen bei Ihnen Einschränkungen in der Farbwahrnehmung vor?;Nein;y/n;farbwahrnehmung;NA;NA;TRUE;4
+Welche?;Bitte eingeben;text;beschreibung_1;farbwahrnehmung;Ja;FALSE;4
+Haben Sie irgendwann einmal eine Diagnose von einer Sprach-, Sprech- oder Lesestörung bekommen (z.B. eine Lese-Rechtschreibschwäche)?;Ja;y/n;sprachstörungen;NA;NA;TRUE;5
+Haben Sie irgendwann einmal eine Diagnose von einer Sprach-, Sprech- oder Lesestörung bekommen (z.B. eine Lese-Rechtschreibschwäche)?;Nein;y/n;sprachstörungen;NA;NA;TRUE;5
+Welche?;Bitte eingeben;text;beschreibung_2;sprachstörungen;Ja;FALSE;5
+Sind bei Ihnen neurologische oder psychologische Störungen bekannt?         ;Ja;y/n;neuro;NA;NA;TRUE;5
+Sind bei Ihnen neurologische oder psychologische Störungen bekannt?         ;Nein;y/n;neuro;NA;NA;TRUE;5
+Was ist (sind) Ihre Muttersprache(n)? ;Bitte eingeben und ggf. mit einem Komma trennen;text;msprache;NA;NA;TRUE;6
+Haben Sie weitere Sprachkenntnisse?;Ja;y/n;sprachen1;NA;NA;FALSE;7
+Haben Sie weitere Sprachkenntnisse?;Nein;y/n;sprachen1;NA;NA;FALSE;7
+Weitere Sprache #1;Bitte eingeben;text;sprachen_1;sprachen1;Ja;FALSE;7
+Wie alt waren Sie, als Sie die Sprache gelernt haben?;;numeric;sprachen_1_2;sprachen1;Ja;FALSE;7
+In welchem Kontext haben Sie die Sprache gelernt?;In Sprachkursen (z.B. an der Schule, Uni, Volkshochschule, Sprachschule, usw.);select;sprachen_1_3;sprachen1;Ja;FALSE;7
+In welchem Kontext haben Sie die Sprache gelernt?;Umgebung;select;sprachen_1_3;sprachen1;Ja;FALSE;7
+In welchem Kontext haben Sie die Sprache gelernt?;In einem anderen Kontext;select;sprachen_1_3;sprachen1;Ja;FALSE;7
+In welchem Kontext haben Sie die Sprache gelernt?;Bitte beschreiben Sie den Kontext, in dem Sie die Sprache gelernt haben.;text;sprachen_1_3_1;sprachen_1_3;In einem anderen Kontext;FALSE;7
+Geschätzte Kenntnisse (A1-C2);A1 – Elementare Sprachverwendung;select;sprachen_1_4;sprachen1;Ja;FALSE;7
+Geschätzte Kenntnisse (A1-C2);A2 – Grundlegende Kenntnisse;select;sprachen_1_4;sprachen1;Ja;FALSE;7
+Geschätzte Kenntnisse (A1-C2);B1 – Fortgeschrittene Kenntnisse;select;sprachen_1_4;sprachen1;Ja;FALSE;7
+Geschätzte Kenntnisse (A1-C2);B2 – Selbstständige Sprachverwendung;select;sprachen_1_4;sprachen1;Ja;FALSE;7
+Geschätzte Kenntnisse (A1-C2);C1 – Kompetente, sichere Sprachverwendung;select;sprachen_1_4;sprachen1;Ja;FALSE;7
+Geschätzte Kenntnisse (A1-C2);C2 -  Annähernd muttersprachliche Kenntnisse;select;sprachen_1_4;sprachen1;Ja;FALSE;7
+Haben Sie weitere Sprachkenntnisse?;Ja;y/n;sprachen2;sprachen1;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Nein;y/n;sprachen2;sprachen1;Ja;FALSE;8
+Weitere Sprache #2;Bitte eingeben;text;sprachen_2;sprachen2;Ja;FALSE;8
+Wie alt waren Sie, als Sie die Sprache gelernt haben?;;numeric;sprachen_2_2;sprachen2;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In Sprachkursen (z.B. an der Schule, Uni, Volkshochschule, Sprachschule, usw.);select;sprachen_2_3;sprachen2;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Umgebung;select;sprachen_2_3;sprachen2;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In einem anderen Kontext;select;sprachen_2_3;sprachen2;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Bitte beschreiben Sie den Kontext, in dem Sie die Sprache gelernt haben.;text;sprachen_2_3_1;sprachen_2_3;In einem anderen Kontext;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A1 – Elementare Sprachverwendung;select;sprachen_2_4;sprachen2;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A2 – Grundlegende Kenntnisse;select;sprachen_2_4;sprachen2;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B1 – Fortgeschrittene Kenntnisse;select;sprachen_2_4;sprachen2;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B2 – Selbstständige Sprachverwendung;select;sprachen_2_4;sprachen2;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C1 – Kompetente, sichere Sprachverwendung;select;sprachen_2_4;sprachen2;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C2 -  Annähernd muttersprachliche Kenntnisse;select;sprachen_2_4;sprachen2;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Ja;y/n;sprachen3;sprachen2;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Nein;y/n;sprachen3;sprachen2;Ja;FALSE;8
+Weitere Sprache #3;Bitte eingeben;text;sprachen_3;sprachen3;Ja;FALSE;8
+Wie alt waren Sie, als Sie die Sprache gelernt haben?;;numeric;sprachen_3_2;sprachen3;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In Sprachkursen (z.B. an der Schule, Uni, Volkshochschule, Sprachschule, usw.);select;sprachen_3_3;sprachen3;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Umgebung;select;sprachen_3_3;sprachen3;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In einem anderen Kontext;select;sprachen_3_3;sprachen3;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Bitte beschreiben Sie den Kontext, in dem Sie die Sprache gelernt haben.;text;sprachen_3_3_1;sprachen_3_3;In einem anderen Kontext;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A1 – Elementare Sprachverwendung;select;sprachen_3_4;sprachen3;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A2 – Grundlegende Kenntnisse;select;sprachen_3_4;sprachen3;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B1 – Fortgeschrittene Kenntnisse;select;sprachen_3_4;sprachen3;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B2 – Selbstständige Sprachverwendung;select;sprachen_3_4;sprachen3;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C1 – Kompetente, sichere Sprachverwendung;select;sprachen_3_4;sprachen3;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C2 -  Annähernd muttersprachliche Kenntnisse;select;sprachen_3_4;sprachen3;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Ja;y/n;sprachen4;sprachen3;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Nein;y/n;sprachen4;sprachen3;Ja;FALSE;8
+Weitere Sprache #4;Bitte eingeben;text;sprachen_4;sprachen4;Ja;FALSE;8
+Wie alt waren Sie, als Sie die Sprache gelernt haben?;;numeric;sprachen_4_2;sprachen4;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In Sprachkursen (z.B. an der Schule, Uni, Volkshochschule, Sprachschule, usw.);select;sprachen_4_3;sprachen4;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Umgebung;select;sprachen_4_3;sprachen4;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In einem anderen Kontext;select;sprachen_4_3;sprachen4;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Bitte beschreiben Sie den Kontext, in dem Sie die Sprache gelernt haben.;text;sprachen_4_3_1;sprachen_4_3;In einem anderen Kontext;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A1 – Elementare Sprachverwendung;select;sprachen_4_4;sprachen4;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A2 – Grundlegende Kenntnisse;select;sprachen_4_4;sprachen4;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B1 – Fortgeschrittene Kenntnisse;select;sprachen_4_4;sprachen4;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B2 – Selbstständige Sprachverwendung;select;sprachen_4_4;sprachen4;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C1 – Kompetente, sichere Sprachverwendung;select;sprachen_4_4;sprachen4;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C2 -  Annähernd muttersprachliche Kenntnisse;select;sprachen_4_4;sprachen4;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Ja;y/n;sprachen5;sprachen4;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Nein;y/n;sprachen5;sprachen4;Ja;FALSE;8
+Weitere Sprache #5;Bitte eingeben;text;sprachen_5;sprachen5;Ja;FALSE;8
+Wie alt waren Sie, als Sie die Sprache gelernt haben?;;numeric;sprachen_5_2;sprachen5;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In Sprachkursen (z.B. an der Schule, Uni, Volkshochschule, Sprachschule, usw.);select;sprachen_5_3;sprachen5;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Umgebung;select;sprachen_5_3;sprachen5;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In einem anderen Kontext;select;sprachen_5_3;sprachen5;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Bitte beschreiben Sie den Kontext, in dem Sie die Sprache gelernt haben.;text;sprachen_5_3_1;sprachen_5_3;In einem anderen Kontext;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A1 – Elementare Sprachverwendung;select;sprachen_5_4;sprachen5;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A2 – Grundlegende Kenntnisse;select;sprachen_5_4;sprachen5;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B1 – Fortgeschrittene Kenntnisse;select;sprachen_5_4;sprachen5;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B2 – Selbstständige Sprachverwendung;select;sprachen_5_4;sprachen5;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C1 – Kompetente, sichere Sprachverwendung;select;sprachen_5_4;sprachen5;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C2 -  Annähernd muttersprachliche Kenntnisse;select;sprachen_5_4;sprachen5;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Ja;y/n;sprachen6;sprachen5;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Nein;y/n;sprachen6;sprachen5;Ja;FALSE;8
+Weitere Sprache #6;Bitte eingeben;text;sprachen_6;sprachen6;Ja;FALSE;8
+Wie alt waren Sie, als Sie die Sprache gelernt haben?;;numeric;sprachen_6_2;sprachen6;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In Sprachkursen (z.B. an der Schule, Uni, Volkshochschule, Sprachschule, usw.);select;sprachen_6_3;sprachen6;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Umgebung;select;sprachen_6_3;sprachen6;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In einem anderen Kontext;select;sprachen_6_3;sprachen6;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Bitte beschreiben Sie den Kontext, in dem Sie die Sprache gelernt haben.;text;sprachen_6_3_1;sprachen_6_3;In einem anderen Kontext;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A1 – Elementare Sprachverwendung;select;sprachen_6_4;sprachen6;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A2 – Grundlegende Kenntnisse;select;sprachen_6_4;sprachen6;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B1 – Fortgeschrittene Kenntnisse;select;sprachen_6_4;sprachen6;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B2 – Selbstständige Sprachverwendung;select;sprachen_6_4;sprachen6;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C1 – Kompetente, sichere Sprachverwendung;select;sprachen_6_4;sprachen6;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C2 -  Annähernd muttersprachliche Kenntnisse;select;sprachen_6_4;sprachen6;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Ja;y/n;sprachen7;sprachen6;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Nein;y/n;sprachen7;sprachen6;Ja;FALSE;8
+Weitere Sprache #7;Bitte eingeben;text;sprachen_7;sprachen7;Ja;FALSE;8
+Wie alt waren Sie, als Sie die Sprache gelernt haben?;;numeric;sprachen_7_2;sprachen7;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In Sprachkursen (z.B. an der Schule, Uni, Volkshochschule, Sprachschule, usw.);select;sprachen_7_3;sprachen7;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Umgebung;select;sprachen_7_3;sprachen7;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In einem anderen Kontext;select;sprachen_7_3;sprachen7;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Bitte beschreiben Sie den Kontext, in dem Sie die Sprache gelernt haben.;text;sprachen_7_3_1;sprachen_7_3;In einem anderen Kontext;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A1 – Elementare Sprachverwendung;select;sprachen_7_4;sprachen7;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A2 – Grundlegende Kenntnisse;select;sprachen_7_4;sprachen7;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B1 – Fortgeschrittene Kenntnisse;select;sprachen_7_4;sprachen7;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B2 – Selbstständige Sprachverwendung;select;sprachen_7_4;sprachen7;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C1 – Kompetente, sichere Sprachverwendung;select;sprachen_7_4;sprachen7;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C2 -  Annähernd muttersprachliche Kenntnisse;select;sprachen_7_4;sprachen7;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Ja;y/n;sprachen8;sprachen7;Ja;FALSE;8
+Haben Sie weitere Sprachkenntnisse?;Nein;y/n;sprachen8;sprachen7;Ja;FALSE;8
+Weitere Sprache #8;Bitte eingeben;text;sprachen_8;sprachen8;Ja;FALSE;8
+Wie alt waren Sie, als Sie die Sprache gelernt haben?;;numeric;sprachen_8_2;sprachen8;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In Sprachkursen (z.B. an der Schule, Uni, Volkshochschule, Sprachschule, usw.);select;sprachen_8_3;sprachen8;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Umgebung;select;sprachen_8_3;sprachen8;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;In einem anderen Kontext;select;sprachen_8_3;sprachen8;Ja;FALSE;8
+In welchem Kontext haben Sie die Sprache gelernt?;Bitte beschreiben Sie den Kontext, in dem Sie die Sprache gelernt haben.;text;sprachen_8_3_1;sprachen_8_3;In einem anderen Kontext;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A1 – Elementare Sprachverwendung;select;sprachen_8_4;sprachen8;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);A2 – Grundlegende Kenntnisse;select;sprachen_8_4;sprachen8;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B1 – Fortgeschrittene Kenntnisse;select;sprachen_8_4;sprachen8;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);B2 – Selbstständige Sprachverwendung;select;sprachen_8_4;sprachen8;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C1 – Kompetente, sichere Sprachverwendung;select;sprachen_8_4;sprachen8;Ja;FALSE;8
+Geschätzte Kenntnisse (A1-C2);C2 -  Annähernd muttersprachliche Kenntnisse;select;sprachen_8_4;sprachen8;Ja;FALSE;8
+Haben Sie einen Klasse B Führerschein?;Ja;y/n;fahren1;NA;NA;TRUE;9
+Haben Sie einen Klasse B Führerschein?;Nein;y/n;fahren1;NA;NA;TRUE;9
+Seit wie vielen Jahren?;;numeric;fahren1_1;fahren1;Ja;TRUE;9
+Wie würden Sie Ihre Fahrfähigkeiten einschätzen?;Sehr gut;select;fahren2;NA;NA;TRUE;9
+Wie würden Sie Ihre Fahrfähigkeiten einschätzen?;Gut;select;fahren2;NA;NA;TRUE;9
+Wie würden Sie Ihre Fahrfähigkeiten einschätzen?;Befriedigend;select;fahren2;NA;NA;TRUE;9
+Wie würden Sie Ihre Fahrfähigkeiten einschätzen?;Ausreichend;select;fahren2;NA;NA;TRUE;9
+Wie würden Sie Ihre Fahrfähigkeiten einschätzen?;Mangelhaft;select;fahren2;NA;NA;TRUE;9
+Wie oft fahren Sie Auto (als Fahrer*in)?;(fast) jeden Tag;select;fahren3;NA;NA;TRUE;9
+Wie oft fahren Sie Auto (als Fahrer*in)?;einige Male im Monat;select;fahren3;NA;NA;TRUE;9
+Wie oft fahren Sie Auto (als Fahrer*in)?;einige Male im Jahr;select;fahren3;NA;NA;TRUE;9
+Wie oft fahren Sie Auto (als Fahrer*in)?;seit mindestens einem Jahr nicht mehr;select;fahren3;NA;NA;TRUE;9
+In welchem Umkreis fahren Sie als Fahrer*in in einem gewöhnlichen Jahr?;innerhalb meiner Nachbarschaft;select;fahren4;NA;NA;TRUE;9
+In welchem Umkreis fahren Sie als Fahrer*in in einem gewöhnlichen Jahr?;in der Region (Berlin/Potsdam/Brandenburg);select;fahren4;NA;NA;TRUE;9
+In welchem Umkreis fahren Sie als Fahrer*in in einem gewöhnlichen Jahr?;innerhalb Deutschlands;select;fahren4;NA;NA;TRUE;9
+In welchem Umkreis fahren Sie als Fahrer*in in einem gewöhnlichen Jahr?;im Ausland;select;fahren4;NA;NA;TRUE;9
+Spielen Sie regelmäßig Computer- oder Videospiele oder haben Sie sie mal regelmäßig gespielt?;Ja;y/n;fahren5;NA;NA;TRUE;9
+Spielen Sie regelmäßig Computer- oder Videospiele oder haben Sie sie mal regelmäßig gespielt?;Nein;y/n;fahren5;NA;NA;TRUE;9
+Spielen Sie regelmäßig Autorennspiele oder haben Sie sie mal regelmäßig gespielt?;Ja;y/n;fahren6;fahren5;Ja;TRUE;9
+Spielen Sie regelmäßig Autorennspiele oder haben Sie sie mal regelmäßig gespielt?;Nein;y/n;fahren6;fahren5;Ja;TRUE;9
