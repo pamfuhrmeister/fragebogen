@@ -5,7 +5,7 @@ account: pamfuhrmeister
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9078122
-bundleId: 7203232
+bundleId: 7209501
 url: https://pamfuhrmeister.shinyapps.io/fragebogen_experiment/
 version: 1
 asMultiple: FALSE
